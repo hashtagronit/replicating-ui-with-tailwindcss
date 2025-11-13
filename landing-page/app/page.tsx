@@ -1,7 +1,11 @@
-import Image from "next/image";
+import DarkModeToggle from "../components/DarkModeToggle";
 
 export default function Home() {
   return (
-    <div></div>
+    <div className="min-h-screen font-manrope">
+      <DarkModeToggle/>
+      
+    </div>
   );
 }
+
