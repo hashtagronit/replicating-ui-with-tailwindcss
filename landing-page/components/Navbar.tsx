@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Container from "./Container";
-import { Logo } from "./Logo";
+import Container from "./container";
+import { Logo } from "./logo";
 import { Button } from "./ui/button";
 
 
