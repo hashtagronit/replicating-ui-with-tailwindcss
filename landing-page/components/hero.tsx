@@ -1,12 +1,12 @@
 
 
-import Container from "./container"
+import { Container } from "./container"
 import { Heading } from "./heading"
 import { LandingImages } from "./landingImages"
 import { Subheading } from "./subheading"
 import { Button } from "./ui/button"
 
-const Hero = () => {
+export const Hero = () => {
     return (
         <div>
             <Container className="pt-10 md:pt-20 lg:pt-32">
@@ -25,4 +25,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+
