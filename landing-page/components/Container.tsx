@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-const Container = ({
+export const Container = ({
   children,
   className,
 }: {
@@ -12,4 +12,4 @@ const Container = ({
   );
 };
 
-export default Container;
+
